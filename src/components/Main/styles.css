@@ -1,0 +1,153 @@
+.banner {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-image: url(../../assets/images/work.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.primeira-sessao {
+    background: rgba(0, 0, 0, 0.884);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+}
+
+.segunda-sessao {
+    display: flex;
+    width: 100%;
+    height: 23vh;
+    background-color: #ec1839;
+    position: relative;
+    align-items: center;
+    box-shadow: 0px -4px 23px rgb(36, 36, 36);
+    padding: 7rem 0px 7rem 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.vagas {
+    list-style: none;
+    color: black;
+    padding-top: 90px;
+    text-align: justify;
+    font-size: 12pt;
+}
+
+.sessao-vagas {
+    position: relative;
+    background-color: aliceblue;
+    padding: 0px 100px;
+}
+
+.vagas {
+    list-style: none;
+    color:aliceblue;
+    padding-top: 90px;
+    text-align: justify;
+    font-size: 12pt;
+}
+
+.titulo-vagas {
+    justify-content: center;
+    display: flex;
+    line-height: 1.5;
+    border-radius: 10px;
+    background-color: #000000; 
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+
+.desc-vagas {
+    background-color: #ec1839;
+    margin-top: 2rem;
+    justify-content: center;
+    font-size: 12pt;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 0.5rem solid black;
+    padding: 5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-favoritar{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.btn-remover{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.missao {
+    margin-left: 50px;
+    width: 727px;
+    text-align: center;
+    font-size: 10pt;
+    color: rgb(19, 18, 18);
+}
+
+.span-formulario {
+    position: relative;
+    font-size: 14pt;
+    color: white;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 3px;
+}
+
+.divisao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 33.33%;
+    padding-top: 20px;
+}
+
+.btn-search {
+    background-color: #ec1839;
+    color: white;
+    border: solid 2px black;
+    font-size: 14pt;
+    border: 0;
+}
+
+.selects {
+    width: 70%;
+    height: 52px;
+    position: relative;
+}
+
+.img-visao {
+    width: 10rem;
+    position: relative;
+}
