@@ -3,7 +3,7 @@ import './styles.css';
 
 import axios from 'axios';
 import React, { useCallback, useState } from 'react';
-import { BsFillTrashFill } from 'react-icons/bs';
+import { FaRegTrashAlt } from 'react-icons/fa';
 
 import computador from '../../assets/images/computador-vetor.png';
 
@@ -30,6 +30,7 @@ function Main(){
 
 const handleRemoverVaga = useCallback((id) => {
 
+    
     const newVagas = vagas.filter((vaga => vaga.id !== id))
  
       setVagas(newVagas)
@@ -68,7 +69,7 @@ const handleRemoverVaga = useCallback((id) => {
                             <button 
                                     className="btn-remover" 
                                     onClick={() => {handleRemoverVaga(vaga.id)}}                            
-                                ><BsFillTrashFill/> 
+                                ><FaRegTrashAlt/> 
                             </button>
                         <span className="desc-vagas">{vaga.body}
                         </span>

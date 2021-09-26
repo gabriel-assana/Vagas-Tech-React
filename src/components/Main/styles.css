@@ -57,6 +57,7 @@
     font-size: 12pt;
 }
 
+
 .titulo-vagas {
     justify-content: center;
     display: flex;
@@ -91,19 +92,32 @@
 
 }
 
+
 .btn-remover{
     display: flex;
     position:absolute;
     right: 6.5rem;    
    
-    color: black;
     font-family: courier, sans;
     padding: 1.5rem;
     
     border-radius: 2rem;
-    border: 1px solid #f2f8f9
- 
+    border: 1px solid #f2f8f9;
+
+    cursor: pointer;
 }
+
+
+.btn-remover svg{
+    font-size: 1rem;
+    color:#000000
+}
+
+.btn-remover:hover{
+    transform:scale(1.25);
+    transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
 
 .missao {
     margin-left: 50px;
