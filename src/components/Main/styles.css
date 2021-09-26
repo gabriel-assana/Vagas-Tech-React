@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
 .banner {
     display: flex;
     width: 100%;
@@ -36,6 +38,9 @@
     padding-top: 90px;
     text-align: justify;
     font-size: 12pt;
+    height: 100%;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
 }
 
 .sessao-vagas {
@@ -56,43 +61,48 @@
     justify-content: center;
     display: flex;
     line-height: 1.5;
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: #000000; 
     color: #ffffff;
     font-weight: 700;
     font-size: 14pt;
+    padding: 2rem 2rem;
+    margin: 1rem;
 }
 
 
 .desc-vagas {
-    background-color: #ec1839;
-    margin-top: 2rem;
-    justify-content: center;
-    font-size: 12pt;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-wrap:wrap-reverse;
+    overflow: hidden;
+    padding: 3rem 3rem;
+    margin: 1rem;
+
+    background-color: #ec1839;
+    border-radius: 1rem;
+    border: 1px solid #f2f8f9;
+    z-index: 0;
+    overflow: hidden;
+    text-decoration: none;
+        
     line-height: 1.5;
     font-size: 1.2rem;
-    border-radius: 10px;
-    border: 0.5rem solid black;
-    padding: 5rem;
-    margin-bottom: 2rem;
-}
 
-.btn-favoritar{
-    background-color: black;
-    color: white;
-    padding: 1rem;
-    margin-top: 1rem;
-    display: flex;
 }
 
 .btn-remover{
-    background-color: black;
-    color: white;
-    padding: 1rem;
-    margin-top: 1rem;
     display: flex;
+    position:absolute;
+    right: 6.5rem;    
+   
+    color: black;
+    font-family: courier, sans;
+    padding: 1.5rem;
+    
+    border-radius: 2rem;
+    border: 1px solid #f2f8f9
+ 
 }
 
 .missao {

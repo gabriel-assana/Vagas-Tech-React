@@ -1,9 +1,12 @@
+import '../../../node_modules/font-awesome/css/font-awesome.min.css';
 import './styles.css';
 
 import axios from 'axios';
 import React, { useCallback, useState } from 'react';
+import { BsFillTrashFill } from 'react-icons/bs';
 
 import computador from '../../assets/images/computador-vetor.png';
+
 
 
 function Main(){
@@ -62,11 +65,12 @@ const handleRemoverVaga = useCallback((id) => {
                 <div key={vaga.id}>
                     <div className = "vagas">
                         <span className="titulo-vagas">{vaga.title}</span>
-                        <span className="desc-vagas">{vaga.body}
                             <button 
-                                className="btn-remover" 
-                                onClick={() => {handleRemoverVaga(vaga.id)}}                            
-                            >Remover</button>
+                                    className="btn-remover" 
+                                    onClick={() => {handleRemoverVaga(vaga.id)}}                            
+                                ><BsFillTrashFill/> 
+                            </button>
+                        <span className="desc-vagas">{vaga.body}
                         </span>
                     </div>
                 </div>    
