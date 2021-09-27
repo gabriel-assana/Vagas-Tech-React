@@ -166,9 +166,12 @@
 }
 
 .selects {
-    width: 70%;
-    height: 52px;
+    width: 20vw;
+    height: 3.5rem;
     position: relative;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .img-visao {

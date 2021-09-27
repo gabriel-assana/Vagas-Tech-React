@@ -44,12 +44,12 @@ const handleRemoverVaga = useCallback((id) => {
 
         <div className="banner">
             <div className="primeira-sessao">
-                <h1 className="span-formulario">Diga o que esta procurando hoje.</h1>
+                <h1 className="span-formulario">Olá Dev, está a procurando de qual área hoje ?</h1>
 
                 <div className="formulario">
 
                     <div className="divisao">
-                        <select className="selects" id="selects" 
+                        <select className="selects" id="selects"  
                             onChange={(event) => {handleSessaoVagas(event.target.value)}}
                         >
                             <option selected disabled>Selecione o cargo desejado</option>
