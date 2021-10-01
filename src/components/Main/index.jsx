@@ -7,12 +7,18 @@ import { FaRegTrashAlt } from 'react-icons/fa';
 
 import computador from '../../assets/images/computador-vetor.png';
 
-
-
 function Main(){
 
     const [vagas, setVagas] =  useState([]);
+    const [vagasPorPage, setvagasPorPage ] = useState(5);
+    const [pageAtual, setpageAtual] = useState(0);
 
+    const pages = Math.ceil(vagas.length / vagasPorPage)
+    const startIndex = pageAtual * vagasPorPage;
+    const endIndex = startIndex + vagasPorPage;
+    const vagasAtuais = vagas.slice(startIndex, endIndex)
+
+    
     const handleSessaoVagas = useCallback((event) => {
        
     if(event === '1'){
@@ -62,7 +68,7 @@ const handleRemoverVaga = useCallback((id) => {
             </div>
         </div>
         <div className="sessao-vagas">
-            {vagas.map((vaga)=>(
+            {vagasAtuais.map((vaga)=>(
                 <div key={vaga.id}>
                     <div className = "vagas">
                         <span className="titulo-vagas">{vaga.title}</span>
@@ -76,7 +82,16 @@ const handleRemoverVaga = useCallback((id) => {
                     </div>
                 </div>    
             ))}
+            <div className="paginacao">
+                {Array.from(Array(pages), (vaga,index) => {
+                    return <button value={index} 
+                    onClick={(e) => setpageAtual(Number(e.target.value))}
+                    >{index + 1}</button>
+
+                })}
+            </div>
         </div>
+
         <div className="segunda-sessao">
             <div className="div-visao">
                 <img className="img-visao" src={computador} alt="imagem-de-computador"></img>
