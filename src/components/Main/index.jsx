@@ -10,7 +10,7 @@ import computador from '../../assets/images/computador-vetor.png';
 function Main(){
 
     const [vagas, setVagas] =  useState([]);
-    const [vagasPorPage, setvagasPorPage ] = useState(5);
+    const vagasPorPage = 5;
     const [pageAtual, setpageAtual] = useState(0);
 
     const pages = Math.ceil(vagas.length / vagasPorPage)
