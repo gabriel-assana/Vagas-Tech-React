@@ -18,20 +18,20 @@ function Main(){
     const endIndex = startIndex + vagasPorPage;
     const vagasAtuais = vagas.slice(startIndex, endIndex)
 
-    
+  
     const handleSessaoVagas = useCallback((event) => {
        
-    if(event === '1'){
-        axios.get("https://api.github.com/repos/frontendbr/vagas/issues")
-        .then(response => {
-           setVagas(response.data);
-        }) 
-    }else if (event === '2'){
-        axios.get("https://api.github.com/repos/backend-br/vagas/issues")
-        .then(response => {
-           setVagas(response.data);
-        })
-    }
+        if(event === '1'){
+            axios.get("https://api.github.com/repos/frontendbr/vagas/issues")
+            .then(response => {
+            setVagas(response.data);
+            }) 
+        }else if (event === '2'){
+            axios.get("https://api.github.com/repos/backend-br/vagas/issues")
+            .then(response => {
+            setVagas(response.data);
+            })
+        }
 },[]);
 
 const handleRemoverVaga = useCallback((id) => {
@@ -67,6 +67,7 @@ const handleRemoverVaga = useCallback((id) => {
 
             </div>
         </div>
+        
         <div className="sessao-vagas">
             {vagasAtuais.map((vaga)=>(
                 <div key={vaga.id}>
@@ -86,8 +87,8 @@ const handleRemoverVaga = useCallback((id) => {
                 {Array.from(Array(pages), (vaga,index) => {
                     return <button value={index} 
                     onClick={(e) => setpageAtual(Number(e.target.value))}
-                    >{index + 1}</button>
-
+                    >{index + 1}
+                    </button>
                 })}
             </div>
         </div>
