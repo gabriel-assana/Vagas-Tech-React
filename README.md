@@ -1,13 +1,12 @@
-# Projeto-Clone-do-Netflix
+# Vagas-Tech
 <h1 align="center">
-  <img src="./img/netflix-logo.png" height="100px" alt="Netflix Clone"/>
+  <img src="./img/logo.png" height="200px" alt="Vagas Tech"/>
 </h1>
 
-<h3 align="center">Desafio do Bootcamp HTML Web Developer da Digital Innovation One.</h3>
+<h3 align="center">🚀Projeto Integrador - Estação Hack From Facebook / Digital House 🚀</h3>
 
-<p align="center">O desafio tem como proposta replicar a pagina de seleção de filmes e series da Netflix.
-Está sendo utilizado flexbox para o posicionamento dos elementos, Owl Carousel para exibição do Carousel de imagens e ainda está sendo realizado o resposividade do site. </p>
-
+<p align="center">O Projeto tem como objetivo criar um site de busca de vagas tanto para desenvolvedores Front-end quanto Back-end.
+Utilizando uma API disponibilizada pelo proprio GitHub. </p>
 
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
