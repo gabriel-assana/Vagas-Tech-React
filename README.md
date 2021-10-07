@@ -1,6 +1,6 @@
 # Vagas-Tech
 <h1 align="center">
-  <img src="./img/logo.png" height="200px" alt="Vagas Tech"/>
+  <img src="src/assets/images/logo.png" height="200px" alt="Vagas Tech"/>
 </h1>
 
 <h3 align="center">🚀Projeto Integrador - Estação Hack From Facebook / Digital House 🚀</h3>
@@ -17,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React]()
 
 <h1 align="center">
-  <img src="./img/gif-pagina.gif"/>
+
 </h1>
 
 https://vagas-tech-react.netlify.app/
