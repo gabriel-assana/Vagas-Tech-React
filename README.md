@@ -3,7 +3,7 @@
   <img src="src/assets/images/logo.png" height="200px" alt="Vagas Tech"/>
 </h1>
 
-<h3 align="center">🚀Projeto Integrador - Estação Hack From Facebook / Digital House 🚀</h3>
+<h3 align="center">🚀Projeto React🚀</h3>
 
 <p align="center">O Projeto tem como objetivo criar um site de busca de vagas tanto para desenvolvedores Front-end quanto Back-end.
 Utilizando uma API disponibilizada pelo proprio GitHub. </p>
