@@ -1,72 +1,25 @@
-.footer {
-    background-color: #000;
-    width: 100%;
-    text-align: center;
-    color: white;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .Container {
-    padding-top: 6%;
-    padding-right: 29%;
+    display: inline-block;
     color: white;
-    overflow: hidden;
+    background-color: #000;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    justify-content: center;
 }
 
-.campost {
-    position: relative;
-    left: -95px;
-}
-
-.form-email-footer {
-    padding-left: 6%;
-    padding-top: 3%;
-    width: 50vw;
-}
-
-.email {
-    height: 30px;
-    width: 35%;
+.img-logo-footer{
+    display: inline-block;
+    justify-content: center;
     text-align: center;
 }
 
-.label {
-    font-size: 24px;
-    color: white;
-}
-
-.divlogo {
-    margin-top: 6%;
-    margin-left: 6%;
-}
-
-.article-footer {
-    float: right;
-    width: 46%;
-    height: 26%;
-    margin-top: -8%;
-    border-left: solid 5px crimson;
-}
-
-.botao {
-    margin-left: 4%;
-    width: 22%;
-    height: 41px;
-    border-radius: 10px;
-    color: black;
-    font-size: 22px;
-    border-color: red;
-    background-color: red;
-    transition: 2000ms;
-    font-weight: bold;
-}
-
-.botao:hover {
-    background-color: white;
-}
-
-.atitulo {
-    color: white;
-    position: relative;
-    top: -26px;
+.Container p {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }

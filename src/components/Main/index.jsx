@@ -29,19 +29,18 @@ function Main(){
         }else if (event === '2'){
             axios.get("https://api.github.com/repos/backend-br/vagas/issues")
             .then(response => {
-            setVagas(response.data);
+            setVagas(response.data); 
             })
         }
 },[]);
 
-const handleRemoverVaga = useCallback((id) => {
+    const handleRemoverVaga = useCallback((id) => {
 
+        const newVagas = vagas.filter((vaga => vaga.id !== id))
     
-    const newVagas = vagas.filter((vaga => vaga.id !== id))
- 
-      setVagas(newVagas)
-           
-},[vagas]); 
+        setVagas(newVagas)
+            
+    },[vagas]); 
 
 
     return(
