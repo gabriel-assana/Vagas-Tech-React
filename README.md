@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Vagas-Tech
+<h1 align="center">
+  <img src="src/assets/images/logo.png" height="200px" alt="Vagas Tech"/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">🚀Projeto React🚀</h3>
 
-## Available Scripts
+<p align="center">O Projeto tem como objetivo criar um site de busca de vagas tanto para desenvolvedores Front-end quanto Back-end.
+Utilizando uma API disponibilizada pelo proprio GitHub. </p>
 
-In the project directory, you can run:
+<h3 align="center">🛠 Tecnologias </h3>
+<p align="center"> As seguintes ferramentas foram usadas na construção do projeto: </p>
 
-### `yarn start`
+<table align="center">
+    <tbody>
+      <tr valign="top">
+        <td width="25%" align="center">
+          <span>𝗛𝗧𝗠𝗟𝟱</span><br><br><br>
+          <img height="64px" src="https://cdn.svgporn.com/logos/html-5.svg">
+        </td>
+        <td width="25%" align="center">
+          <span>𝗖𝗦𝗦𝟯</span><br><br><br>
+          <img height="64px" src="https://cdn.svgporn.com/logos/css-3.svg">
+        </td>
+        <td width="25%" align="center">
+          <span>𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁</span><br><br><br>
+          <img height="64px" src="https://cdn.svgporn.com/logos/javascript.svg">
+        </td>
+        <td width="25%" align="center">
+          <span><strong>React</strong>
+          </span><br><br><br>
+          <img height="64px" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png">
+        </td>
+      </tr>
+      <tr valign="top">
+        <td width="25%" align="center">
+          <span>𝗚𝗶𝘁</span><br><br><br>
+          <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
+        </td>
+        <td width="25%" align="center">
+          <span>𝗩𝗦 𝗖𝗼𝗱𝗲</span><br><br><br>
+          <img height="64px" src="https://cdn.svgporn.com/logos/visual-studio-code.svg">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 align="center">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+</h1>
 
-### `yarn test`
+https://vagas-tech-react.netlify.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por Gabriel Assana 👋🏽 Entre em contato!
+[![Linkedin](https://img.shields.io/badge/-GabrielAssana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-vieira-assana-62405414a/)](https://www.linkedin.com/in/gabriel-vieira-assana-62405414a/)
+[![Gmail Badge](https://img.shields.io/badge/-gabrielhhz2@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:gabrielhhz2@gmail.com)
