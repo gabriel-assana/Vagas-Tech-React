@@ -6,6 +6,7 @@ import React, { useCallback, useState } from 'react';
 import { FaRegTrashAlt } from 'react-icons/fa';
 
 import computador from '../../assets/images/computador-vetor.png';
+import Paginacao from './paginação';
 
 function Main(){
 
@@ -82,14 +83,7 @@ function Main(){
                     </div>
                 </div>    
             ))}
-            <div className="paginacao">
-                {Array.from(Array(pages), (vaga,index) => {
-                    return <button value={index} 
-                    onClick={(e) => setpageAtual(Number(e.target.value))}
-                    >{index + 1}
-                    </button>
-                })}
-            </div>
+                <Paginacao pages={pages} setpageAtual={setpageAtual}/>
         </div>
 
         <div className="segunda-sessao">
