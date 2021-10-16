@@ -15,7 +15,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS]()
 - [JavaScript]()
 - [React]()
-- [API]()
+- [Axios]()
 
 <h1 align="center">
 
