@@ -8,8 +8,8 @@
 <p align="center">O Projeto tem como objetivo criar um site de busca de vagas tanto para desenvolvedores Front-end quanto Back-end.
 Utilizando uma API disponibilizada pelo proprio GitHub. </p>
 
-### 🛠 Tecnologias
-As seguintes ferramentas foram usadas na construção do projeto:
+<h3 align="center">### 🛠 Tecnologias </h3>
+<p align="center"> As seguintes ferramentas foram usadas na construção do projeto: </p>
 
 <table align="center">
     <tbody>
