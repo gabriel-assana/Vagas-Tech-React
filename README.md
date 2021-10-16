@@ -11,7 +11,7 @@ Utilizando uma API disponibilizada pelo proprio GitHub. </p>
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 
-<table>
+<table align="center">
     <tbody>
       <tr valign="top">
         <td width="25%" align="center">
