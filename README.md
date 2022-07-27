@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="src/assets/images/logo.png" height="200px" alt="Vagas Tech"/>
+  <img src="src/assets/images/logo.png" height="200px" alt="Vagas Tech"/> 
 </h1>
 
 <h3 align="center">🚀Projeto Vagas Tech utilizando React🚀</h3>
